@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*
+    Border Box:
+
+        Margin: The spacing outside the container
+        padding: The spacing inside the container
+        border: THe boundary around the container
+        blue box: The box which represents width x height
+*/
+
+
+
+
+
+.box{
+    background-color: red;
+    color: white;
+
+    width: 200px;
+    height: 200px;
+
+    /* margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px; */
+
+
+    /* short cut for the 4 lines above */
+    /* margin: 20px 10px 0px 20px; */
+
+    margin: 20px 40px;
+
+    /* padding: 10px 20px 40px 50px; */
+    padding: 100px 100px 100px 80px;
+
+    /* to curve the border */
+    border-radius: 50%;
+/* 
+    border-width: 10px;
+    border-style: solid dashed dotted double;
+    border-color: black crimson blue orange; */
+
+
+    border: 2px solid black;
+}
+
+.myImage{
+    border-radius: 50%;
+
+}
+
+.imageContainer{
+    text-align: center;
+
+}
+
+.box2{
+    background-color: rebeccapurple;
+    color: white;
+
+    width: 200px;
+    height: 180px;
+
+    /* margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px; */
+
+
+    /* short cut for the 4 lines above */
+    margin: 70px 10px 30px 330px;
+}
+.box3{
+    background-color: rebeccapurple;
+    color: white;
+
+    width: 230px;
+    height: 210px;
+
+    /* margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px; */
+
+
+    /* short cut for the 4 lines above */
+    margin: 105px 10px 30px 650px;
+}
+
+
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+} */
+
+/* .myBox1{
+    margin: 10px 20px 30px 40px;
+}
+.myBox2{
+    margin: 10px 20px 30px 230px;
+}
+.myBox3{
+    margin: 10px 400px 30px 400px;
+} */
