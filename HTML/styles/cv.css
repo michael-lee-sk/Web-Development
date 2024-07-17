@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.blue {
+    color:blue
+}
+.picture {
+    border-radius:5%;
+    width: 350px;
+    height: 300px;
+}
+
+.alignCentre {
+    text-align: center;
+}
