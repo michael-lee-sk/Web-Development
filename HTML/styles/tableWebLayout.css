@@ -6,7 +6,7 @@
 .myTable{
     border: 1px solid black;
     width: 100%;
-    height: 500px;
+    height: 1000px;
 
     /* to get rid of the gap */
     border-collapse: collapse;
