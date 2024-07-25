@@ -3,22 +3,23 @@
     padding: 0;
     margin: 0;
 }
+
+
 .myTable{
     border: 1px solid black;
     width: 100%;
-    height: 1000px;
+    height: 100vh;
 
     /* to get rid of the gap */
     border-collapse: collapse;
-
     /* border-spacing: 20px; */
 }
 
 .myTable td{
     border: 1px solid black;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+    /* text-align: center; */
+    /* font-weight: bold; */
+    /* padding: 20px; */
 }
 
 .myTable th{
@@ -26,3 +27,103 @@
     /* background-color: black;
     color: white; */
 }
+
+/* Navbar styling starts here */
+
+
+.nav{
+
+}
+
+.navContainer{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 18px 40px;
+}
+
+.logoContainer{
+    /* background-color: red; */
+    padding: 10px;
+    display: inline;
+    float: left;
+}
+
+.logoContainer h2{
+    /* background-color: pink; */
+    display: inline;
+
+}
+
+
+.linksContainer{
+    /* background-color: red; */
+    padding: 10px;
+    display: inline;
+    float: right;
+
+}
+
+.linksContainer li{
+    /* background-color: purple; */
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.contactBtn{
+    background-color: #0383a9 ;
+    margin-left: 200px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.contactBtn:hover{
+    background-color: #0ea8d7 ;
+    padding: 12px 23px;
+    border-radius: 12px;
+
+    /* animation effect */
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+
+
+/* Navbar styling ends here */
+
+
+/* Aside styling starts here */
+
+
+.asideContainer {
+    height: 100%;
+
+    /* background-color: red; */
+}
+
+
+
+
+.asideContainer li{
+    margin-left: 20px;
+    list-style-type: none;
+    /* text-align: center; */
+
+}
+
+.nameContainer {
+    float: top;
+    border-radius: 50%;
+    text-align: center;
+}
+.asideContainer img{
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+/* Aside styling starts ends */
