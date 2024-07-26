@@ -74,7 +74,7 @@
 
 .contactBtn{
     background-color: #0383a9 ;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     padding: 8px 20px;
     border-radius: 8px;
     border: none;
@@ -100,18 +100,27 @@
 
 .asideContainer {
     height: 100%;
-
     /* background-color: red; */
 }
 
 
 
-
 .asideContainer li{
-    margin-left: 20px;
+    margin: 10px 0;
+    padding-left: 10px; /* Adjust the value as needed */
+    border-collapse: separate;
     list-style-type: none;
-    /* text-align: center; */
+    border-top: 1px solid #000000;
+}
 
+.asideContainer li:hover{
+    background-color: #e2f5fb ;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    /* animation effect */
+    transition-duration: 1s;
+    transition-delay: 0.1s;
 }
 
 .nameContainer {
@@ -120,10 +129,11 @@
     text-align: center;
 }
 .asideContainer img{
+    margin-top: 10px;
     text-align: center;
     border-radius: 50%;
 }
 
 
 
-/* Aside styling starts ends */
+/* Aside styling ends here */
