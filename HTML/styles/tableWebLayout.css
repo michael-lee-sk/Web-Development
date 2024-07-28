@@ -106,17 +106,21 @@
 
 
 .asideContainer li{
-    margin: 10px 0;
+    /* margin: 10px 0; */
     padding-left: 10px; /* Adjust the value as needed */
     border-collapse: separate;
     list-style-type: none;
-    border-top: 1px solid #000000;
+    border-bottom: 1px solid #e9e3e3;
+    padding: 15px 0px;
+    padding-left: 10px;
 }
+
+
 
 .asideContainer li:hover{
     background-color: #e2f5fb ;
-    padding: 10px 20px;
-    border-radius: 10px;
+
+    /* border-radius: 10px; */
 
     /* animation effect */
     transition-duration: 1s;
@@ -135,5 +139,43 @@
 }
 
 
-
 /* Aside styling ends here */
+
+/* Content styling starts here */
+.bodyTable{
+    width: 98%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    border-spacing: 20px;
+}
+
+/* .tableColumn {
+    text-align: ;
+} */
+
+
+.content{
+    height: 100%;
+    text-align: left;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+.footTable{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    /* margin-left: 150px; */
+
+}
+
+
+.footTable td{
+    /* border: none; */
+    padding-left: 20px;
+}
+/* Content styling ends here */
