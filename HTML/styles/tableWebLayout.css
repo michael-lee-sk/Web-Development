@@ -94,6 +94,25 @@
 
 /* Navbar styling ends here */
 
+/* Right aside styling starts here*/
+
+.rightAsideContainer {
+    height: 100%;
+    border: none; 
+    border-collapse: collapse;
+}
+
+.rightAsideContainer td {
+    border: none; 
+}
+
+.rightAsideContainer ul {
+    list-style-type: none; 
+    padding-left: 10px;
+}
+
+
+/* Right aside styling end here*/
 
 /* Aside styling starts here */
 
