@@ -100,10 +100,16 @@
     height: 100%;
     border: none; 
     border-collapse: collapse;
+
 }
 
 .rightAsideContainer td {
     border: none; 
+    padding: 20px;
+}
+
+.rightAsideContainer h1 {
+    padding-left: 5px;
 }
 
 .rightAsideContainer ul {

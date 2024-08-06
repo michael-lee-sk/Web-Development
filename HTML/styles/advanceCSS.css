@@ -1,0 +1,102 @@
+/* Simple Selectors */
+
+/* p{
+    background-color: red;
+}
+
+h1{
+    background-color: green;
+} */
+
+
+/* find the p tag with he class center */
+
+/* p.center {
+    text-align: center;
+} */
+
+
+/* Combinator Selectors 
+        There are four types of it
+            1) Descendant Selector  (space)
+            2) child selector (>)
+            3) Adjacent Sibling Selector (+)
+            4) General Sibling Selector (~)
+
+*/
+
+/* .Alpha p{
+    background-color: red ;
+} */
+
+.Alpha > p{
+    background-color: green;
+}
+
+
+
+/* .me + p{
+    background-color: red;
+} */
+
+.me ~ p {
+    background-color: purple;
+}
+
+
+/* Pseudo Class Selectors
+    It is used to activate a special state of an element
+
+ 
+*/
+
+
+button:hover{
+    background-color: red;
+}
+
+
+/* unvisited link */
+.myLink:link{
+    color: dodgerblue;
+}
+/* visited link */
+.myLink:visited{
+    color: olivedrab;
+}
+/* hovered link */
+.myLink:hover{
+    color: brown;
+}
+
+
+/* when you click it */
+.myLink:active{
+    color: chartreuse;
+}
+
+/* Pseudo Element Selectors
+    This is used to style a specific part of an element for instance a specific part in a sentence, a specific section from a div
+
+    
+*/
+
+.lorem::first-letter{
+    background-color: red;
+}
+
+
+/* Attribute Selector
+        The attribute Selector is used to select elements with a specified attribute
+*/
+
+
+
+/* img[alt]{
+    border-radius: 50%;
+} */
+
+
+img[alt="img1"]{
+    border-radius: 50%;
+}
